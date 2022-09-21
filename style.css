@@ -1,0 +1,107 @@
+body {
+    color: #202020;
+    background: linear-gradient(45deg, #000000bf, #2f1a6f, #000000bf);
+    font-family: 'OCR A Std', monospace;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px 130px;
+    font-weight: bold;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-container h1 {
+    font-size: 2rem;
+    text-transform: lowercase;
+}
+
+.menu {
+    display: flex;
+    gap: 4rem;
+}
+
+.menu-item {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-transform: lowercase;
+    font-size: 0.9rem;
+    cursor: default;
+    transition: all 0.25s;
+}
+
+.menu-item:hover {
+    opacity: 0.55;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    opacity: 0.9;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+
+header img:hover {
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+.center {
+    text-align: center;
+}
+
+main h3 {
+    margin-top: 50px;
+}
+
+.main-content {
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding: 0px 100px;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: 0.15s;
+}
+
+footer img:hover {
+    transform: translate(0px, -3px);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+}
+
+footer a {
+    margin: 20px;
+    margin-top: 20px;
+    text-align: center;
+    transition: 0.25s;
+    cursor: default;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+#colorpicker {
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+}
